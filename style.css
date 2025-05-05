@@ -1,0 +1,49 @@
+:root {
+    --primary-bg: #F8FAFC;
+    --secondary-bg: #E2E8F0;
+    --card-bg: #FFFFFF;
+    --primary-text: #0F172A;
+    --secondary-text: #334155;
+    --accent: #38BDF8;
+    --accent-hover: #0EA5E9;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+    font-family: sans-serif;
+  }
+
+  main {
+    flex: 1;
+  }
+
+  .section-bg {
+    background-color: var(--secondary-bg);
+  }
+
+  .card {
+    background-color: var(--card-bg);
+    color: var(--secondary-text);
+  }
+
+  .btn-accent {
+    background-color: var(--accent);
+    color: white;
+  }
+
+  .btn-accent:hover {
+    background-color: var(--accent-hover);
+  }
+
+  footer {
+    background-color: var(--secondary-bg);
+    color: var(--secondary-text);
+  }
